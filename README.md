@@ -53,57 +53,56 @@ This project is a Django-based web application that involves user registration, 
 
 
 ##Basic Setup to get started
-1.Create a Virtual Environment:
+#1.Create a Virtual Environment:
 Open VS CODE terminal and navigate to the project directory.
 In terminal Enter
-# On Windows
+On Windows:
 python -m venv venv
-# On Linux/macOS
+On Linux/macOS:
 python3 -m venv venv
 
 
-2. Activate the Virtual Environment:
-# On Windows
+#2. Activate the Virtual Environment:
+On Windows:
 .\venv\Scripts\activate
-# On Linux/macOS
+On Linux/macOS:
 source venv/bin/activate
 Your terminal prompt should change, indicating that the virtual environment is now active.
 
-3. Install Django:
+#3. Install Django:
 While the virtual environment is active, install Django using pip.
 pip install django
 
 
 
-4. Create a Django Project:
+#4. Create a Django Project:
 django-admin startproject your_project_name
 This will create a new directory with your project's name. Navigate into this directory.
 cd your_project_name
 
 
-5. Create a Django App:
+#5. Create a Django App:
 Inside your project directory, create a Django app.
 python manage.py startapp your_app_name
 
 
-6. Install Required Packages:
+#6. Install Required Packages:
 Install any additional packages you need. For example, you may want to install djangorestframework:
 pip install djangorestframework
 
 
-7. Apply Migrations:
+#7. Apply Migrations:
 Apply migrations to set up your database.
 python manage.py migrate
 
 
-8. Run the Development Server:
-
+#8. Run the Development Server:
 Start the development server to see if everything is working.
 python manage.py runserver
 Visit http://localhost:8000 in your web browser to see the default Django welcome page.
 
 
-Additional Steps:
+#Additional Steps:
 Configure your database settings in the settings.py file.
 Set up your Django app, models, views, and URLs.
 
